@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro associado</title>
+</head>
+<body>
+    <h3 style="background-color: rgb(96, 96, 212);">Não é associado? Faça seu cadastro</h3>
+    <form action="cadastro.php">
+        <p> 
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </p>      
+       <p>
+            <label for="sobren">Sobrenome:</label>
+            <input type="text" name="sobren" id="sobren">
+        </p>
+        <p>
+            <label for="cpf">CPF: </label>
+            <input type="number" name="cpf" id="cpf">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <label for="web">Website:</label>
+            <input type="url" name="web" id="web">
+        </p>
+        <P>
+            <label for="end">Endereço:</label>
+            <input type="text" name="end" id="end">
+        </P>
+        <p>
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" id="bairro">
+            <label for="cid">Cidade:</label>
+            <input type="text" name="cid" id="cid">
+        </p>
+        <p>
+            <label for="cep">CEP:</label>
+            <input type="text" name="cep" id="cep">
+            <label for="uf">UF:</label>
+            <select name="uf" id="uf">
+                <option value="ac">AC</option>
+                <option value="al">AL</option>
+                <option value="am">AM</option>
+                <option value="ap">AP</option>
+                <option value="ba">BA</option>
+                <option value="ce">CE</option>
+                <option value="df">DF</option>
+                <option value="es">ES</option>
+                <option value="go">GO</option>
+                <option value="ma">MA</option>
+                <option value="mt">MT</option>
+                <option value="ms">MS</option>
+                <option value="mg">MG</option>
+                <option value="pa">PA</option>
+                <option value="pb">PB</option>
+                <option value="pr">PR</option>
+                <option value="pe">PE</option>
+                <option value="pi">PI</option>
+                <option value="rj">RJ</option>
+                <option value="rn">RN</option>
+                <option value="rs">RS</option>
+                <option value="ro">RO</option>
+                <option value="rr">RR</option>
+                <option value="sc">SC</option>
+                <option value="sp">SP</option>
+                <option value="se">SE</option>
+                <option value="to">TO</option>
+            </select>
+        </p>
+        <p>
+            <label for="tel">Telefone</label>
+            <input type="tel" name="tel" id="tel">
+            <label for="fax">FAX</label>
+            <input type="tel" name="fax" id="fax">
+        </p>
+        <p>
+            <label for="dn">Data de Nascimento</label>
+            <input type="date" name="dn" id="dn">
+            <label for="gen">Genero:</label>
+        <input type="radio" name="masc" id="masc">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="fem" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p>
+            <label for="cel">Celular</label>
+            <input type="cel" name="tel" id="cel">
+            <label for="estc">Estado Civil:</label>
+            <select name="estc" id="estc">
+                <option value="sol">Solteiro</option>
+                <option value="cas">Casado</option>
+                <option value="div">Divorciado</option>
+                <option value="viu">Viuvo</option>
+                <option value="ue">União Estável</option>
+            </select>
+        </p>
+        <p>
+            <label for="login">Login</label>
+            <input type="text" name="login" id="login">
+            <label for="senha">Snha:</label>
+            <input type="password" name="senha" id="senha">
+        </p>
+        <p>
+            <strong> Deseja receber informações do seguintes assuntos abaixo:</p></strong>
+           <input type="checkbox" name="tec" id="tec">
+           <label for="tec">Tecnologia</label>
+           <input type="checkbox" name="esp" id="esp">
+           <label for="esp">Esportes</label>
+           <input type="checkbox" name="aut" id="atu">
+           <label for="aut">Automóveis</label>
+           <input type="checkbox" name="cul" id="cul">
+           <label for="cul">Culinária</label>
+           <input type="checkbox" name="pol" id="pol">
+           <label for="tec">Política</label>
+           <input type="checkbox" name="pm" id="pm">
+           <label for="tec">Policial</label>
+           <input type="checkbox" name="temp" id="temp">
+           <label for="tec">Tempo</label>
+           <br>
+           <input type="checkbox" name="cult" id="cult">
+           <label for="cult">cultura</label>
+           <input type="checkbox" name="econ" id="econ">
+           <label for="econ">Economia</label>
+           <input type="checkbox" name="jg" id="jg">
+           <label for="jg">Jogos</label>
+           <input type="checkbox" name="edu" id="edu">
+           <label for="edu">Educação</label>
+           <input type="checkbox" name="vg" id="vg">
+           <label for="vg">Viagem</label>
+           <input type="checkbox" name="emp" id="emp">
+           <label for="emp">Empregos</label>
+           <input type="checkbox" name="mod" id="mod">
+           <label for="mod">Moda e Estilo</label>
+           <br>
+           <input type="checkbox" name="acc" id="acc">
+           <label for="acc">Li as regras de cadastro e autorizo a criação do ususario</label>        
+    </form>
+    <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Retomar</button>
+</p>
+    
+
+</body>
+</html>
